@@ -1,3 +1,6 @@
+Note : Set the baud rate of GSM to 38400 incase its running at default 115200. 
+       Use AT command as "AT+IPR=38400" to set the baud rate
+Use GSM_test1.ino with modem_initialzation function to setup below settings using arduino. 
 Step 1:Connect GSM modem with UART bridge
 
 Step 2:Open arduino COM Port ( with appropriate port ID) , select baud rate of 38400 with carriage return 
